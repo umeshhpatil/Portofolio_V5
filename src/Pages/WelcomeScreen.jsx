@@ -109,11 +109,11 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                 className="flex justify-center gap-3 sm:gap-4 md:gap-8 mb-6 sm:mb-8 md:mb-12"
                 variants={childVariants}
               >
-                {[Code2, User, Github].map((Icon, index) => (
+                {/* {[Code2, User, Github].map((Icon, index) => (
                   <div key={index} data-aos="fade-down" data-aos-delay={index * 200}>
                     <IconButton Icon={Icon} />
                   </div>
-                ))}
+                ))} */}
               </motion.div>
 
               {/* Welcome Text */}
@@ -121,7 +121,7 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                 className="text-center mb-6 sm:mb-8 md:mb-12"
                 variants={childVariants}
               >
-                <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold space-y-2 sm:space-y-4">
+                {/* <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold space-y-2 sm:space-y-4">
                   <div className="mb-2 sm:mb-4">
                     <span data-aos="fade-right" data-aos-delay="200" className="inline-block px-2 bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
                       Welcome
@@ -141,7 +141,7 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                       Website
                     </span>
                   </div>
-                </h1>
+                </h1> */}
               </motion.div>
 
               {/* Website Link */}
@@ -151,7 +151,7 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                 data-aos="fade-up"
                 data-aos-delay="1200"
               >
-                <a
+                {/* <a
                   href="https://www.eki.my.id"
                   className="inline-flex items-center gap-2 px-4 py-2 sm:px-6 sm:py-3 rounded-full relative group hover:scale-105 transition-transform duration-300"
                   target="_blank"
@@ -164,7 +164,7 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                       <TypewriterEffect text="www.eki.my.id" />
                     </span>
                   </div>
-                </a>
+                </a> */}
               </motion.div>
             </div>
           </div>

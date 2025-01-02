@@ -205,7 +205,7 @@ const AboutPage = () => {
                 data-aos="fade-right"
                 data-aos-duration="1300"
               >
-                Eki Zulfar Rachman
+                Umesh Patil
               </span>
             </h2>
             
@@ -214,14 +214,11 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              seorang siswa Teknik Jaringan Komputer dan Telekomunikasi yang
-              tertarik dalam pengembangan Front-End. Saya berfokus pada
-              menciptakan pengalaman digital yang menarik dan selalu berusaha
-              memberikan solusi terbaik dalam setiap proyek.
+              I've been exposed to C, C++,core JAVA Programming Languages along with Data Structures and Algorithms. Currently, I'm exploring front-end technologies like React, jQuery. In addition to this, I am also working on few other skills like Python, MySQL, etc. My key strengths include quick learning ability, the ability to adapt to new technologies quickly as well as good interpersonal skills.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
-              <a href="https://drive.google.com/drive/folders/1BOm51Grsabb3zj6Xk27K-iRwI1zITcpo" className="w-full lg:w-auto">
+              <a href="https://drive.google.com/file/d/1h5YsZ1DLe_2pyPhbTy41t9lvnb_NRe7B/view?usp=drive_link" className="w-full lg:w-auto">
               <button 
                 data-aos="fade-up"
                 data-aos-duration="800"
@@ -242,7 +239,7 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <ProfileImage />
+         
         </div>
 
         <a href="#Portofolio">

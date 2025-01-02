@@ -84,7 +84,11 @@ const Navbar = () => {
                         onClick={(e) => scrollToSection(e, "#Home")}
                         className="text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#6366f1] bg-clip-text text-transparent"
                     >
-                        Ekizr
+                            <img
+                                src="/logo.png" // Replace with your logo's file path or URL
+                                alt="Logo"
+                                className="h-20 w-auto" // Adjust height and width as needed
+                                />
                     </a>
                 </div>
     
