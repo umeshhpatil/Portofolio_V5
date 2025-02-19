@@ -74,5 +74,11 @@
   },
   "engines": {
     "node": "18.x"
+  },
+  "overrides": {
+  "react-swipeable-views": {
+    "react": "^18.3.1"
   }
+}
+
 }
