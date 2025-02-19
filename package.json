@@ -66,6 +66,9 @@
   "predeploy": "vite build",
   "deploy": "gh-pages -d dist",
   "build": "npm install --legacy-peer-deps && vite build"
+},
+"engines": {
+  "node": "18.x"
 }
 
 }
